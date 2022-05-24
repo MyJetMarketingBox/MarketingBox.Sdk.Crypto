@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RepositoryUrl>https://github.com/MyJetMarketingBox/MarketingBox.Sdk.Crypto</RepositoryUrl>
+    <RootNamespace>MarketingBox.Sdk.Crypto</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Cryptography.KeyDerivation" Version="6.0.4" />
+  </ItemGroup>
+
+</Project>
